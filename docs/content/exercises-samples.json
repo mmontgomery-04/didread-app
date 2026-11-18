@@ -1,0 +1,230 @@
+{
+  "schema": "docs/SPEC.md section 5",
+  "note": "Test samples of each exercise type (batch 3b). Status 'draft'; ids 9xx so they never take ids from planned content.",
+  "exercises": [
+    {
+      "id": "comp-f-901",
+      "title": "Why Bread Goes Stale",
+      "skill": "comprehension",
+      "band": "foundation",
+      "topic": "Science / food",
+      "sequence": 901,
+      "passage": "A loaf of bread left on the counter for a few days turns hard and crumbly, and most people assume it has simply dried out. That's only a small part of the story. When bread bakes, the heat lets the starch in the flour soak up water and loosen into a soft, jumbled gel. As the loaf cools and sits, those starch molecules slowly pack themselves back into tight, orderly crystals, squeezing the water out of their way. Food scientists call this retrogradation, and it's what makes a stale slice feel stiff even when it still holds plenty of moisture.\n\nThe process runs fastest at cool temperatures just above freezing, which is exactly where a refrigerator sits. Freezing, on the other hand, stops it almost completely, so a frozen loaf keeps far better. Warmth can even undo it for a while. A few minutes in a hot oven loosens the starch again, which is why a stale roll can come back to life, at least until it cools down.",
+      "word_count": 169,
+      "question": "Which sentence explains why a refrigerator is a bad place to keep bread?",
+      "response_type": "tap_sentence",
+      "options": null,
+      "correct_option_id": null,
+      "mc_feedback": null,
+      "rubric": null,
+      "anchors": null,
+      "sentences": [
+        [
+          "A loaf of bread left on the counter for a few days turns hard and crumbly, and most people assume it has simply dried out.",
+          "That's only a small part of the story.",
+          "When bread bakes, the heat lets the starch in the flour soak up water and loosen into a soft, jumbled gel.",
+          "As the loaf cools and sits, those starch molecules slowly pack themselves back into tight, orderly crystals, squeezing the water out of their way.",
+          "Food scientists call this retrogradation, and it's what makes a stale slice feel stiff even when it still holds plenty of moisture."
+        ],
+        [
+          "The process runs fastest at cool temperatures just above freezing, which is exactly where a refrigerator sits.",
+          "Freezing, on the other hand, stops it almost completely, so a frozen loaf keeps far better.",
+          "Warmth can even undo it for a while.",
+          "A few minutes in a hot oven loosens the starch again, which is why a stale roll can come back to life, at least until it cools down."
+        ]
+      ],
+      "correct_sentence_index": 5,
+      "order_items": null,
+      "order_instruction": null,
+      "feedback": {
+        "correct": "Staling runs fastest just above freezing, and that's right where a fridge sits. The cold speeds bread up instead of slowing it down.",
+        "incorrect": "Look for the sentence about temperature. Staling runs fastest just above freezing, which is exactly where a fridge sits."
+      },
+      "editorial_notes": "SAMPLE for testing the tap_sentence type (batch 3b); not planned launch content. FACT-CHECK: (1) Staling is mainly starch retrogradation (starch recrystallizing), not just drying out. (2) Retrogradation is fastest at refrigerator temperatures, just above freezing, so refrigerated bread stales faster than bread at room temperature. (3) Freezing nearly halts it. (4) Reheating temporarily reverses staling until the bread cools. Sources to check: Harold McGee, 'On Food and Cooking' (2004); a food-science review of starch retrogradation.",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "comp-f-902",
+      "title": "The Glue That Failed",
+      "skill": "comprehension",
+      "band": "foundation",
+      "topic": "History / business",
+      "sequence": 902,
+      "passage": "In 1978, the company 3M tried something unusual in Boise, Idaho: it simply gave away free pads of sticky notes to offices around town. Nearly everyone who tried them wanted more.\n\nThe giveaway rescued a product that had just flopped. A year earlier, a test launch under the name Press 'n Peel had gone nowhere, partly because people didn't see the point until they had a pad in their hands.\n\nThe story had started long before that, with a mistake. In 1968, a 3M chemist named Spencer Silver was trying to make a very strong glue and made the opposite: one that stuck lightly and peeled off cleanly. For years, nobody could think of a use for it. Then, in 1974, another 3M scientist, Art Fry, got tired of paper bookmarks falling out of his church hymn book. He realized Silver's glue could hold them in place without tearing the pages.\n\nAfter Boise, things moved fast. In 1980, Post-it Notes went on sale across the United States.",
+      "word_count": 167,
+      "question": "The passage tells this story out of order. What really happened first?",
+      "response_type": "order",
+      "options": null,
+      "correct_option_id": null,
+      "mc_feedback": null,
+      "rubric": null,
+      "anchors": null,
+      "sentences": null,
+      "correct_sentence_index": null,
+      "order_items": [
+        {
+          "id": "a",
+          "text": "Spencer Silver makes a glue that only sticks lightly"
+        },
+        {
+          "id": "b",
+          "text": "Art Fry uses the glue to hold his hymn book bookmarks"
+        },
+        {
+          "id": "c",
+          "text": "A test launch called Press 'n Peel flops"
+        },
+        {
+          "id": "d",
+          "text": "Free samples win people over in Boise, Idaho"
+        },
+        {
+          "id": "e",
+          "text": "The notes go on sale across the United States"
+        }
+      ],
+      "order_instruction": "Put the events in the order they happened.",
+      "feedback": {
+        "correct": "The glue came first, in 1968, and the national launch came last, in 1980. The passage opens in the middle, in Boise, so that took some untangling.",
+        "incorrect": "The passage opens in the middle of the story, in Boise. The years are your map: 1968, 1974, 1977, 1978, then 1980."
+      },
+      "editorial_notes": "SAMPLE for testing the order type (batch 3b); not planned launch content. FACT-CHECK: (1) Spencer Silver developed the low-tack adhesive at 3M in 1968 while aiming for a strong glue. (2) Art Fry had the hymn-book bookmark idea in 1974. (3) 1977 test launch as 'Press 'n Peel' did poorly. (4) 1978 free-sample campaign in Boise, Idaho (the 'Boise Blitz') had a very high reorder rate. (5) US-wide launch as Post-it Notes in 1980. (6) 'People didn't see the point until they tried it' is the usual explanation for the flop; keep the hedge 'partly'. Source to check: 3M's own history pages; Smithsonian Magazine coverage of the Post-it Note.",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "comp-f-903",
+      "title": "The Late Bakery",
+      "skill": "comprehension",
+      "band": "foundation",
+      "topic": "Test sample / fiction",
+      "sequence": 903,
+      "passage": "Every Saturday morning, the bakery on Fern Street opened an hour later than on weekdays. New customers often complained, standing at the locked door while their coffee went cold. What they didn't know was that the owner, Ruth Okafor, spent that hour delivering bread to the shelter two streets away. She had started the habit eight years earlier, after a winter when the shelter's own oven broke. The oven was fixed by spring, but Ruth kept going. She never mentioned it in the shop, and there was no sign on the door. Regulars who knew simply arrived at nine instead of eight. One of them, a retired teacher named Paul, began leaving a note on the door each Saturday: Open at nine. Worth the wait. Nobody ever took the note down, and by now most of the street had learned to read it.",
+      "word_count": 143,
+      "question": "Which summary of the passage gets a fact wrong?",
+      "response_type": "bad_summary",
+      "options": null,
+      "correct_option_id": null,
+      "mc_feedback": null,
+      "sentences": null,
+      "correct_sentence_index": null,
+      "order_items": null,
+      "order_instruction": null,
+      "summaries": [
+        {
+          "id": "a",
+          "text": "The bakery opens late on Saturdays because the owner delivers bread to a nearby shelter."
+        },
+        {
+          "id": "b",
+          "text": "She started the habit two years ago, after the shelter's oven broke one winter."
+        },
+        {
+          "id": "c",
+          "text": "A regular customer leaves a note each Saturday telling people the shop opens at nine."
+        }
+      ],
+      "wrong_summary_id": "b",
+      "error_type": "changed_number",
+      "feedback": {
+        "correct": "The passage says Ruth started the habit eight years earlier, not two. The rest of that summary matches the line about the winter the shelter's oven broke.",
+        "incorrect": "Check the numbers: the passage says Ruth started delivering bread eight years earlier, after the shelter's oven broke one winter."
+      },
+      "rounds": null,
+      "rubric": null,
+      "anchors": null,
+      "editorial_notes": "Test sample for the test panel (batch 13, Bad Summary). Original fiction. Never approved.",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "comp-f-904",
+      "title": "Word Sprint sample",
+      "skill": "comprehension",
+      "band": "foundation",
+      "topic": "Test sample / vocabulary",
+      "sequence": 904,
+      "passage": "",
+      "word_count": 0,
+      "question": "Five definitions, five words.",
+      "response_type": "word_sprint",
+      "options": null,
+      "correct_option_id": null,
+      "mc_feedback": null,
+      "sentences": null,
+      "correct_sentence_index": null,
+      "order_items": null,
+      "order_instruction": null,
+      "summaries": null,
+      "wrong_summary_id": null,
+      "error_type": null,
+      "feedback": {
+        "correct": "Test sample: the text shown after a pass.",
+        "incorrect": "Test sample: the text shown after a fail."
+      },
+      "rounds": [
+        {
+          "definition": "Very careful about every small detail",
+          "options": [
+            "meticulous",
+            "careless",
+            "generous",
+            "anxious"
+          ],
+          "answer": "meticulous",
+          "example": "She kept meticulous notes on every plant in the garden."
+        },
+        {
+          "definition": "Hard and dry, so it breaks easily",
+          "options": [
+            "brittle",
+            "sturdy",
+            "humid",
+            "fragrant"
+          ],
+          "answer": "brittle",
+          "example": "After a week without water, the leaves turned brittle."
+        },
+        {
+          "definition": "Grew strongly and well",
+          "options": [
+            "thrived",
+            "withered",
+            "wandered",
+            "shivered"
+          ],
+          "answer": "thrived",
+          "example": "The wild patch thrived in the shade of the fence."
+        },
+        {
+          "definition": "Not wanting to do something, holding back",
+          "options": [
+            "reluctant",
+            "eager",
+            "proud",
+            "restless"
+          ],
+          "answer": "reluctant",
+          "example": "He was reluctant to admit he had no idea why."
+        },
+        {
+          "definition": "To stay somewhere longer than you need to",
+          "options": [
+            "linger",
+            "hurry",
+            "vanish",
+            "argue"
+          ],
+          "answer": "linger",
+          "example": "On warm evenings, they liked to linger by the roses."
+        }
+      ],
+      "rubric": null,
+      "anchors": null,
+      "editorial_notes": "Test sample for the test panel (batch 13, Word Sprint, no passage). Never approved.",
+      "status": "draft",
+      "version": 1
+    }
+  ]
+}

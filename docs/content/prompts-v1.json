@@ -1,0 +1,16 @@
+{
+  "schema": "docs/SPEC.md section 5, \"Say it your way\" prompts",
+  "note": "Only 'approved' prompts are served (dev builds may show drafts). Served in id order.",
+  "prompts": [
+    { "id": "prompt-001", "text": "Describe your morning to someone who has never been to your city.", "status": "approved" },
+    { "id": "prompt-002", "text": "What's something you changed your mind about in the last year? What changed it?", "status": "approved" },
+    { "id": "prompt-003", "text": "Explain what you do all day to a curious ten-year-old.", "status": "approved" },
+    { "id": "prompt-004", "text": "Write about a small object you own that matters more than it should.", "status": "approved" },
+    { "id": "prompt-005", "text": "What's a piece of advice you ignored, and were you right to?", "status": "approved" },
+    { "id": "prompt-006", "text": "Describe a smell that takes you straight back somewhere.", "status": "approved" },
+    { "id": "prompt-007", "text": "What would you tell yourself on the first day of something you've since gotten good at?", "status": "approved" },
+    { "id": "prompt-008", "text": "Argue for your favorite season like you're trying to win.", "status": "approved" },
+    { "id": "prompt-009", "text": "What's something you do the hard way on purpose?", "status": "approved" },
+    { "id": "prompt-010", "text": "Write the first paragraph of a letter you'll never send.", "status": "approved" }
+  ]
+}

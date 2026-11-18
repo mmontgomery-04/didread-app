@@ -1,0 +1,11 @@
+# Settings for the Supabase command-line tool (npx supabase), used only to deploy backend functions.
+
+project_id = "DidRead"
+
+[functions.score-response]
+# The function checks the user's sign-in itself (supabase/functions/score-response/index.ts).
+verify_jwt = false
+
+[functions.calibrate-response]
+# Only the secret key can use it; the function checks that itself (calibrate-response/index.ts).
+verify_jwt = false

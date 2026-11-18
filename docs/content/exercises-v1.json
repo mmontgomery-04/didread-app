@@ -1,0 +1,322 @@
+{
+  "schema": "docs/SPEC.md section 5",
+  "note": "All exercises are 'draft'. Batch 3 bundles these for on-device testing only; from batch 6 onward only 'approved' exercises are served.",
+  "exercises": [
+    {
+      "id": "comp-f-001",
+      "title": "How Bees Give Directions",
+      "skill": "comprehension",
+      "band": "foundation",
+      "topic": "Science / nature",
+      "sequence": 1,
+      "passage": "When a honeybee finds a good patch of flowers, she can't draw a map or point the way. Instead, she flies back to the hive and dances.\n\nOn the vertical honeycomb inside the dark hive, she runs a short straight line while shaking her body from side to side. Then she loops back around and runs the line again, over and over. Other bees crowd close and follow her movements.\n\nThe dance carries two pieces of information. The angle of the straight run tells the others which direction to fly. A run straight up the comb means \"fly toward the sun.\" A run tilted 40 degrees to the right of straight up means \"fly 40 degrees to the right of the sun.\" The length of the run signals distance: the longer she waggles, the farther away the flowers are.\n\nThe Austrian scientist Karl von Frisch spent decades decoding this language, and he shared the 1973 Nobel Prize for his work on animal behavior. His ideas were debated for years, but later experiments, including some using tiny robotic bees, confirmed that the dance really does guide other bees to food.",
+      "word_count": 189,
+      "question": "A bee runs a straight line tilted 40 degrees to the right of straight up, and she waggles for a long time. What is she telling the other bees?",
+      "response_type": "multiple_choice",
+      "options": [
+        {
+          "id": "a",
+          "text": "Fly 40 degrees right of the sun; the flowers are close"
+        },
+        {
+          "id": "b",
+          "text": "Fly 40 degrees right of the sun; the flowers are far"
+        },
+        {
+          "id": "c",
+          "text": "Fly 40 degrees left of the sun; the flowers are far"
+        },
+        {
+          "id": "d",
+          "text": "Danger lies 40 degrees from the hive"
+        }
+      ],
+      "correct_option_id": "b",
+      "mc_feedback": {
+        "correct": "The angle gives the direction, and the length of the waggle gives the distance.",
+        "incorrect_by_option": {
+          "a": "You got the direction. Now check the distance: \"the longer she waggles, the farther away the flowers are.\"",
+          "c": "Take another look at the direction: tilted right of straight up means fly right of the sun.",
+          "d": "The dance isn't a warning. It \"really does guide other bees to food.\""
+        }
+      },
+      "rubric": null,
+      "anchors": null,
+      "editorial_notes": "Fact-check: von Frisch shared the 1973 Nobel Prize in Physiology or Medicine; robotic-bee experiments confirming the dance. Note sources here. SOURCES (fact-checked 2026-10-01, see docs/FACTCHECK.md): Nobel Prize 1973 press release (nobelprize.org/prizes/medicine/1973/press-release/); Riley et al., Nature 2005 (nature.com/articles/nature03526); Michelsen et al., Behavioral Ecology and Sociobiology 1992 (link.springer.com/article/10.1007/BF00166696); waggle dance reviews, PMC6835826 and PMC6955924; waggle duration and distance, PMC8029670.",
+      "status": "approved",
+      "version": 1
+    },
+    {
+      "id": "inf-f-001",
+      "title": "The Spare Key",
+      "skill": "inference",
+      "band": "foundation",
+      "topic": "Fiction / everyday life",
+      "sequence": 1,
+      "passage": "Marta had lived in the apartment on Holt Street for eleven years. Every Sunday she watered the tomato plants on the balcony, and every Sunday the man in 4B called over the railing to ask how they were coming along.\n\nThis Sunday, she stood in the doorway of the living room holding a watering can with nothing to water. The plants had gone to her niece on Thursday, along with the couch and most of the dishes. What was left fit into six boxes by the door, each labeled in thick black marker: KITCHEN, BOOKS, WINTER.\n\nShe walked down the hall to 4B and knocked. When the door opened, she held out a small brass key.\n\n\"For the new people,\" she said. \"In case they lock themselves out. I always did, the first year.\"\n\nThe man turned the key over in his palm. \"The balcony won't be the same,\" he said.\n\nMarta laughed, but she looked at the floor when she did it. \"Somebody will grow something,\" she said. \"Somebody always does.\"",
+      "word_count": 172,
+      "question": "What is happening in Marta's life, and how does she seem to feel about it? Point to one detail that shows you. (1–2 sentences)",
+      "response_type": "open_text",
+      "options": null,
+      "correct_option_id": null,
+      "mc_feedback": null,
+      "rubric": [
+        {
+          "id": "c1",
+          "text": "Infers that Marta is moving out",
+          "required": true,
+          "level_0": "Not mentioned or wrong",
+          "level_1": "Vague (\"something is changing\")",
+          "level_2": "Clearly says she's moving or leaving"
+        },
+        {
+          "id": "c2",
+          "text": "Infers her mixed or sad feelings",
+          "required": false,
+          "level_0": "No feeling, or the wrong feeling",
+          "level_1": "A feeling named without nuance",
+          "level_2": "Names sadness she's partly hiding, or mixed feelings"
+        },
+        {
+          "id": "c3",
+          "text": "Supports the answer with a specific detail",
+          "required": false,
+          "level_0": "No detail",
+          "level_1": "A detail that shows the move but not the feeling",
+          "level_2": "A detail that shows the feeling (laughing while looking at the floor, the empty watering can)"
+        }
+      ],
+      "anchors": [
+        {
+          "label": "strong",
+          "text": "Marta is moving out after eleven years, and she's sadder than she lets on. She laughs, but she looks at the floor when he says the balcony won't be the same.",
+          "expected_scores": {
+            "c1": 2,
+            "c2": 2,
+            "c3": 2
+          },
+          "expected_pass": true
+        },
+        {
+          "label": "partial",
+          "text": "She's moving and she's a little sad because she gave her plants away.",
+          "expected_scores": {
+            "c1": 2,
+            "c2": 1,
+            "c3": 1
+          },
+          "expected_pass": true
+        },
+        {
+          "label": "weak",
+          "text": "Marta likes gardening and gets along with her neighbor.",
+          "expected_scores": {
+            "c1": 0,
+            "c2": 0,
+            "c3": 0
+          },
+          "expected_pass": false
+        }
+      ],
+      "editorial_notes": "Original fiction; no fact-check needed.",
+      "status": "approved",
+      "version": 1
+    },
+    {
+      "id": "rsn-d-001",
+      "title": "The Holes That Weren't There",
+      "skill": "reasoning",
+      "band": "developing",
+      "topic": "History / statistics",
+      "sequence": 1,
+      "passage": "During the Second World War, American military analysts faced a practical problem. Bombers were being shot down at alarming rates, and armor could help, but armor is heavy. Every extra pound of steel plating cost fuel, range, and speed. Too little armor and the crews died; too much and the plane could barely fly. So the question was not whether to add armor, but where.\n\nThe planes that came back from missions seemed to offer an answer. The story, as it has been retold many times since, goes like this: analysts mapped the bullet holes on returning aircraft, and a clear pattern appeared. The wings and the body of the plane were riddled with damage. The engines, by comparison, had surprisingly few holes.\n\nThe obvious recommendation was to reinforce the areas that were being hit the most. More holes meant more danger, and more danger meant more armor.\n\nAbraham Wald, a mathematician working with a wartime research group at Columbia University, is said to have looked at the same pattern and recommended nearly the opposite. Put the armor, he argued, where the returning planes had the fewest holes.\n\nHis reasoning has since become one of the most famous lessons in statistics, and it applies far beyond airplanes: to studies of successful companies, to advice from lottery winners, and to any conclusion drawn only from the cases that happened to survive long enough to be counted.",
+      "word_count": 235,
+      "question": "Why would Wald's recommendation make sense? Explain his reasoning in 1–2 sentences.",
+      "response_type": "open_text",
+      "options": null,
+      "correct_option_id": null,
+      "mc_feedback": null,
+      "rubric": [
+        {
+          "id": "c1",
+          "text": "Recognizes the data came only from planes that survived",
+          "required": true,
+          "level_0": "Not mentioned",
+          "level_1": "Hinted (\"these planes were fine\")",
+          "level_2": "Clearly says only returning or surviving planes were studied"
+        },
+        {
+          "id": "c2",
+          "text": "Explains what the missing holes mean",
+          "required": false,
+          "level_0": "Says nothing about the areas with few holes or the damage they didn't see",
+          "level_1": "Says the damage they saw wasn't what mattered, or that the missing hits mattered more, without saying those planes were lost",
+          "level_2": "Says planes hit in the areas with few holes (such as the engines) were shot down or didn't make it back"
+        },
+        {
+          "id": "c3",
+          "text": "Connects the reasoning to the armor decision",
+          "required": false,
+          "level_0": "Doesn't use the words armor, protect, or reinforce (or a close synonym). An answer that only says why a part matters, such as \"engines are the most important part\", scores 0",
+          "level_1": "Mentions armor, protecting, or reinforcing and says where it should go, but not that planes hit there didn't come back",
+          "level_2": "Says the armor should go where returning planes had few holes (such as the engines), because planes hit there didn't come back"
+        }
+      ],
+      "anchors": [
+        {
+          "label": "strong",
+          "text": "They were only looking at planes that survived, so wing damage obviously wasn't fatal. Planes hit in the engines probably never came home, so that's where the armor should go.",
+          "expected_scores": {
+            "c1": 2,
+            "c2": 2,
+            "c3": 2
+          },
+          "expected_pass": true
+        },
+        {
+          "label": "partial",
+          "text": "Wald realized they only studied planes that survived, so the damage they saw wasn't the damage that mattered.",
+          "expected_scores": {
+            "c1": 2,
+            "c2": 1,
+            "c3": 0
+          },
+          "expected_pass": false
+        },
+        {
+          "label": "weak",
+          "text": "Because engines are the most important part of the plane.",
+          "expected_scores": {
+            "c1": 0,
+            "c2": 0,
+            "c3": 0
+          },
+          "expected_pass": false
+        }
+      ],
+      "editorial_notes": "FACT-CHECK BEFORE APPROVAL. The 'engines' detail comes from popular retellings; Wald's actual memos were mathematical methods for estimating vulnerability from surviving aircraft. Keep the phrase 'as it has been retold'. Confirm Wald worked with the Statistical Research Group at Columbia. SOURCES (fact-checked 2026-10-01, see docs/FACTCHECK.md): AMS Feature Column, \"The Legend of Abraham Wald\" (ams.org/publicoutreach/feature-column/fc-2016-06); CNA reprint of Wald's memoranda (cna.org/analyses/1980/a-method-of-estimating-plane-vulnerability); Mangel & Samaniego, Journal of the American Statistical Association 1984.",
+      "status": "approved",
+      "version": 1
+    },
+    {
+      "id": "art-f-001",
+      "title": "The First Essays",
+      "skill": "articulation",
+      "band": "foundation",
+      "topic": "History / writing",
+      "sequence": 1,
+      "passage": "In 1580, a French nobleman named Michel de Montaigne published a book unlike anything his readers had seen. He had stepped back from public life to a tower on his family's estate, surrounded by his library, and started writing short pieces about whatever was on his mind: friendship, fear, cannibals, sleep, lying, and his own kidney stones.\n\nHe called these pieces essais. In French, the word meant \"attempts\" or \"trials,\" the way you might try out a new recipe or test a difficult climb. Montaigne wasn't claiming to have final answers. He was trying out his thinking on the page: changing his mind in the middle, contradicting himself, and admitting what he didn't know. \"What do I know?\" became his personal motto.\n\nThe word stuck. Today, \"essay\" usually means a school assignment with a thesis statement and five tidy paragraphs. But the original idea was looser and braver. Writing was a way of discovering what you think, not just reporting what you had already decided.",
+      "word_count": 165,
+      "question": "A friend of yours hates writing essays. In 1–2 sentences, explain why Montaigne's idea of an essay might change how they feel about it.",
+      "response_type": "open_text",
+      "options": null,
+      "correct_option_id": null,
+      "mc_feedback": null,
+      "rubric": [
+        {
+          "id": "c1",
+          "text": "Conveys the core idea: an essay as an attempt, writing to explore rather than to prove",
+          "required": true,
+          "level_0": "Missing or wrong",
+          "level_1": "Mentions \"attempt\" without what it means for writing",
+          "level_2": "Explains that you write to figure out what you think"
+        },
+        {
+          "id": "c2",
+          "text": "Speaks to the friend: why this would feel different",
+          "required": false,
+          "level_0": "Gives the friend no reason to feel differently",
+          "level_1": "General reassurance not tied to how writing works, such as \"it doesn't have to be perfect\" or \"it's easier\"",
+          "level_2": "Names a relief that comes from Montaigne's idea: you don't need your opinion worked out before you start, or you can change your mind as you write"
+        },
+        {
+          "id": "c3",
+          "text": "Puts the ideas in the writer's own words",
+          "required": false,
+          "level_0": "Only restates facts from the passage (names, dates, places, details of the story or experiment), or copies a whole sentence from it",
+          "level_1": "Copies a run of 5 or more words in a row from the passage",
+          "level_2": "No run of 5 or more words is copied from the passage. Shared single words or short phrases (such as \"attempt\", \"meant\", \"fool\", \"brain\") don't count as copying. Paraphrasing a fact from the passage is fine. A short answer can earn this"
+        }
+      ],
+      "anchors": [
+        {
+          "label": "strong",
+          "text": "Montaigne's essays were just attempts. He wrote to figure out what he thought, changing his mind as he went. So you don't need the answer before you start; writing is how you get there.",
+          "expected_scores": {
+            "c1": 2,
+            "c2": 2,
+            "c3": 2
+          },
+          "expected_pass": true
+        },
+        {
+          "label": "partial",
+          "text": "An essay originally meant an attempt, so it doesn't have to be perfect.",
+          "expected_scores": {
+            "c1": 1,
+            "c2": 1,
+            "c3": 2
+          },
+          "expected_pass": true
+        },
+        {
+          "label": "weak",
+          "text": "Montaigne wrote about cannibals and kidney stones in 1580.",
+          "expected_scores": {
+            "c1": 0,
+            "c2": 0,
+            "c3": 0
+          },
+          "expected_pass": false
+        }
+      ],
+      "editorial_notes": "Fact-check: Essais first published 1580; motto 'Que sais-je?'; the tower (library) on the family estate. SOURCES (fact-checked 2026-10-01, see docs/FACTCHECK.md): Stanford Encyclopedia of Philosophy, \"Michel de Montaigne\" (plato.stanford.edu/entries/montaigne/); The Montaigne Project, 1580 edition, Books I and II (lib.uchicago.edu/efts/ARTFL/projects/montaigne/1580essais1.html and 1580essais2.html).",
+      "status": "approved",
+      "version": 1
+    },
+    {
+      "id": "inf-d-001",
+      "title": "Two Clinics",
+      "skill": "inference",
+      "band": "developing",
+      "topic": "History / medicine",
+      "sequence": 1,
+      "passage": "In the 1840s, Vienna General Hospital ran two maternity clinics side by side. Women were admitted to one or the other on alternating days, so the two groups of patients were broadly similar. Their fates were not. In the First Clinic, staffed by doctors and medical students, a disease called childbed fever killed mothers at a far higher rate than in the Second Clinic, staffed by midwives. In some years the gap was so well known that women begged not to be sent to the First Clinic.\n\nIgnaz Semmelweis, a young Hungarian doctor working in the First Clinic, set out to find the difference. He ruled out explanations one by one. Crowding was actually worse in the Second Clinic, because women avoided the First. He had doctors copy the midwives' delivery position. He even changed the route the priest took when bringing last rites to dying patients, in case fear was the cause. Nothing changed.\n\nThen, in 1847, a colleague named Jakob Kolletschka died after being cut by a student's scalpel during an autopsy. His illness looked strikingly like childbed fever. Semmelweis also knew something about the First Clinic's daily routine: its doctors and students often came to the maternity ward straight from dissecting bodies in the autopsy room. The midwives did not perform autopsies.\n\nSemmelweis ordered everyone in the First Clinic to wash their hands in a chlorinated lime solution before examining patients. Within months, the death rate fell to roughly the level of the Second Clinic.",
+      "word_count": 248,
+      "question": "Which conclusion is best supported by the passage?",
+      "response_type": "multiple_choice",
+      "options": [
+        {
+          "id": "a",
+          "text": "The midwives were simply more skilled at delivering babies"
+        },
+        {
+          "id": "b",
+          "text": "Doctors were carrying something from the dead bodies to the mothers on their hands"
+        },
+        {
+          "id": "c",
+          "text": "Crowded wards made childbed fever less likely"
+        },
+        {
+          "id": "d",
+          "text": "Fear of the priest's visits was making mothers sick"
+        }
+      ],
+      "correct_option_id": "b",
+      "mc_feedback": {
+        "correct": "Three clues point the same way: Kolletschka's illness, the autopsy routine, and what happened after handwashing.",
+        "incorrect_by_option": {
+          "a": "The passage never compares skill, and handwashing alone closed the gap.",
+          "c": "Crowding was actually worse in the Second Clinic, which is how Semmelweis ruled it out.",
+          "d": "Semmelweis tested that one. He changed the priest's route and nothing changed."
+        }
+      },
+      "rubric": null,
+      "anchors": null,
+      "editorial_notes": "FACT-CHECK BEFORE APPROVAL: mortality comparison between clinics, Kolletschka's death in 1847, timing of the chlorinated-lime handwashing order. Keep figures qualitative unless a source is cited. SOURCES (fact-checked 2026-10-01, see docs/FACTCHECK.md): James Lind Library (jameslindlibrary.org/articles/ignaz-phillip-semmelweis-studies-of-death-in-childbirth/); Noakes et al., Epidemiology & Infection 2008 (cambridge.org, \"Semmelweis and the aetiology of puerperal sepsis 160 years on\"); GMS Hygiene and Infection Control, \"Ignaz Philipp Semmelweis (1818-1865)\" (journals.publisso.de/en/journals/hic/volume20/dgkh000608); Carl Hempel, Philosophy of Natural Science (1966), ch. 2.",
+      "status": "approved",
+      "version": 1
+    }
+  ]
+}

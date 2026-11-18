@@ -1,0 +1,11 @@
+{
+  "note": "Models compared by npm run calibrate (batch 8). Prices are US dollars per 1 million tokens, copied by the founder from OpenAI's pricing page. Not secret. Cached-input pricing is ignored. The provider and API key come from the Supabase secrets.",
+  "max_run_cost_usd": 2,
+  "models": [
+    {
+      "model": "gpt-4.1-mini",
+      "input_usd_per_million": 0.4,
+      "output_usd_per_million": 1.6
+    }
+  ]
+}
